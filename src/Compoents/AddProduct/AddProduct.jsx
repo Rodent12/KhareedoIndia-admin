@@ -47,7 +47,7 @@ const AddProduct = () => {
                 body : JSON.stringify(product),
             }).then((res)=>res.json()).then((data)=>{
                 if(data.success){
-                    // alert('Product Added')
+                    alert('Product Added')
                 }
                 else{
                     alert('Failed')
